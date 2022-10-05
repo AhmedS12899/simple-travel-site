@@ -1,3 +1,45 @@
-tr{
-    border: black 2px dotted;
+div#table-container, div#city-info{
+    /* border: 2px dotted rgb(249, 9, 9); */
+    margin-bottom: 20px;
+}
+table{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    width: 60%;
+    text-align: left;
+    margin: 0 20% 0 20%;
+}
+caption{
+    font-size: large;
+    font-weight: bold;
+}
+th, td{
+    border-bottom: 1.5px solid rgba(164, 153, 153, 0.497);
+    padding: 5px 5px 5px 5px;
+}
+th{
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgba(249, 199, 123, 0.51);
+}
+tr:nth-child(odd){
+    background-color: rgba(113, 85, 85, 0.127);
+}
+div#gallery{
+    vertical-align: middle;
+    /* border: 3px dotted black; */
+    display: flex;
+    height: 70%;
+    width: 80%;
+    margin: 10% 10% 0 10%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 250px;
 }
